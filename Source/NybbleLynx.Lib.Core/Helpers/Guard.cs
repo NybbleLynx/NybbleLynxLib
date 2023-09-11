@@ -26,7 +26,7 @@ namespace NybbleLynx.Lib.Core.Helpers
         {
             if (string.IsNullOrWhiteSpace(value))
             {
-                throw new ArgumentNullException(nameof(parameterName));
+                throw new ArgumentNullException(parameterName);
             }
         }
     }
