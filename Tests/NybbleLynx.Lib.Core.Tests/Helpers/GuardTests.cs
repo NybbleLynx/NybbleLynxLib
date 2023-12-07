@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 using NybbleLynx.Lib.Core.Helpers;
 
@@ -59,12 +60,13 @@ namespace NybbleLynx.Lib.Core.Tests.Helpers
 
         #region Test Items
 
+        [SuppressMessage("ReSharper", "UnusedMember.Local", Justification = "Test class with test properties")]
         private class TestObject
         {
-            public string Prop1 { get; set; }
-            public string Prop2 { get; set; }
+            public string Prop1 => "property1";
+            public string Prop2 => "property2";
         }
-            
+
         #endregion
     }
 }
