@@ -9,17 +9,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C6C2BF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9451B52C-9708-4206-BF80-F1A472843FF2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F1FFA43E-2756-49A5-961F-81BF44FF2EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NybbleLynx.Lib.Core", "Source\NybbleLynx.Lib.Core\NybbleLynx.Lib.Core.csproj", "{77444715-B65B-4855-AF6B-BB577637EC34}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{CC9D9ABD-3700-4D70-8019-AF276856EA8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleLynx.Lib.Core.Tests", "Tests\NybbleLynx.Lib.Core.Tests\NybbleLynx.Lib.Core.Tests.csproj", "{5C1BB37A-B33C-445D-BF5D-51423EC771EF}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77444715-B65B-4855-AF6B-BB577637EC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77444715-B65B-4855-AF6B-BB577637EC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77444715-B65B-4855-AF6B-BB577637EC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77444715-B65B-4855-AF6B-BB577637EC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1BB37A-B33C-445D-BF5D-51423EC771EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1BB37A-B33C-445D-BF5D-51423EC771EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1BB37A-B33C-445D-BF5D-51423EC771EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1BB37A-B33C-445D-BF5D-51423EC771EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F1FFA43E-2756-49A5-961F-81BF44FF2EBA} = {C6C2BFC0-71D5-4D5B-A7DC-F34E7B9EA884}
-		{CC9D9ABD-3700-4D70-8019-AF276856EA8E} = {C6C2BFC0-71D5-4D5B-A7DC-F34E7B9EA884}
+		{77444715-B65B-4855-AF6B-BB577637EC34} = {C6C2BFC0-71D5-4D5B-A7DC-F34E7B9EA884}
+		{5C1BB37A-B33C-445D-BF5D-51423EC771EF} = {9451B52C-9708-4206-BF80-F1A472843FF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A32EB9D-1344-47E1-85E7-BC71EEF951A5}
